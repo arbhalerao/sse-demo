@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  min-height: 100vh;
+}
+
+.status {
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.controls {
+  margin: 20px 0;
+}
+
+.controls button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: #21a9c7;
+}
+
+.messages {
+  margin-top: 30px;
+  text-align: left;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.message-list {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  padding: 20px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #333;
+  border-radius: 5px;
+  border-left: 4px solid #61dafb;
+}
+
+.timestamp {
+  color: #61dafb;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.content {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.data {
+  color: #ccc;
+  font-size: 14px;
+  font-family: monospace;
+}
